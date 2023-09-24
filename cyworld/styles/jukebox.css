@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+    
+}
+
+.wrapper__header {
+    display: flex;
+    flex-direction: column;
+    width: 464px;
+    height: 203px;
+    flex-shrink: 0;
+    margin-bottom: 42px;
+}
+
+.wrapper__title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.title {
+    margin-right: 5px;
+}
+
+.divideLine {
+    width: 464px;
+    border-top: 1px solid #999;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.header__images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img__container {
+    width: 120px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.album__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-01 {
+    background: url("../images/jukebox-01.png"), lightgray 50% / cover no-repeat;
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+.image-02 {
+    background: url("../images/jukebox-02.png"), lightgray 50% / cover no-repeat;
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+.image-03 {
+    background: url("../images/jukebox-03.png"), lightgray 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+
+.title {
+    color: #55B2D4;
+    font-family: Malgun Gothic;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtitle {
+    color: #000;
+    font-family: Sci Fied Bitmap;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+
+.album__title {
+    color: #0F465E;
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.album__artist {
+    color: #999;
+    font-family: Malgun Gothic;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+table {
+    margin-top: 9px;
+    width: 464px;
+    height: 120px;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+th, td{
+    vertical-align: middle;
+    text-align: start;
+    height: 20px;
+    
+}
+
+th {
+    border: none;
+    border-top: solid#999;
+    border-bottom: solid#999;
+    background-color: #eee;
+    text-align: start;
+    color: #999;
+    font-family: Malgun Gothic;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+td {
+    border: none;
+    color: #0F465E;
+    font-family: Malgun Gothic;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: dotted 1px #999;
+}
+
+.checkbox {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    border: 1px solid #999;
+    background: #FFF;
+   
+}
+
+.first__column{
+    width: 56px;
+    padding-left: 20px;
+    vertical-align: bottom
+}
+
+.second__column{
+    padding-left: 7px;
+    width: 38px;
+}

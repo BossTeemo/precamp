@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>Document</title>
+    <script src="./06-timer.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .auth-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+
+        #target {
+            margin-right: 5px;
+        }
+
+        #timer {
+            margin-left: 20px;
+            margin-right: 5px;
+        }
+        .timer-wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;          
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="auth-wrapper">
+            <div id="target">000000</div>
+            <div><button onclick="auth()">인증번호 전송</button></div>
+        </div>
+        <div class="timer-wrapper">
+            <div id="timer">3:00</div>
+            <button id="finish">인증완료</button>
+        </div>
+    </div>
+</body>
+
+</html>
